@@ -72,7 +72,7 @@ struct Music: View {
                     }
                     return .commandFailed
                 }
-
+                
                 self.commandCenter.pauseCommand.addTarget {  event in
                     if self.player.rate == 1.0 {
                         self.player.pause()

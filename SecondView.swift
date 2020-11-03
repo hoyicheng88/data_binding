@@ -121,6 +121,6 @@ struct TextView: View {
             .padding()
             .background(Color.white.opacity(0.8))
             .cornerRadius(30)
-            
+            //.font
     }
 }

@@ -78,7 +78,6 @@ struct ContentView: View {
                         }
                         //.pickerStyle(InlinePickerStyle())
                         //.pickerStyle(SegmentedPickerStyle())
-                        //.pickerStyle(WheelPickerStyle())
                         .pickerStyle(MenuPickerStyle())
                         
                         
