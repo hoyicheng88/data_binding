@@ -11,6 +11,10 @@
 		43A10C5D2551410E0069463A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A10C5C2551410E0069463A /* ContentView.swift */; };
 		43A10C5F2551410F0069463A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A10C5E2551410F0069463A /* Assets.xcassets */; };
 		43A10C622551410F0069463A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A10C612551410F0069463A /* Preview Assets.xcassets */; };
+		43A10C6B2551414D0069463A /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A10C6A2551414D0069463A /* SecondView.swift */; };
+		43A10C6E255141850069463A /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A10C6D255141840069463A /* Music.swift */; };
+		43A10C73255145550069463A /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43A10C71255145550069463A /* BGM.mp3 */; };
+		43A10C772551636B0069463A /* 主題曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43A10C762551636B0069463A /* 主題曲.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		43A10C5E2551410F0069463A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A10C612551410F0069463A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43A10C632551410F0069463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A10C6A2551414D0069463A /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		43A10C6D255141840069463A /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		43A10C71255145550069463A /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		43A10C762551636B0069463A /* 主題曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "主題曲.mp3"; path = "../../PIC/主題曲.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		43A10C4E2551410E0069463A = {
 			isa = PBXGroup;
 			children = (
+				43A10C6A2551414D0069463A /* SecondView.swift */,
 				43A10C592551410E0069463A /* data_binding */,
 				43A10C582551410E0069463A /* Products */,
 			);
@@ -54,8 +63,11 @@
 			children = (
 				43A10C5A2551410E0069463A /* data_bindingApp.swift */,
 				43A10C5C2551410E0069463A /* ContentView.swift */,
+				43A10C6D255141840069463A /* Music.swift */,
 				43A10C5E2551410F0069463A /* Assets.xcassets */,
 				43A10C632551410F0069463A /* Info.plist */,
+				43A10C71255145550069463A /* BGM.mp3 */,
+				43A10C762551636B0069463A /* 主題曲.mp3 */,
 				43A10C602551410F0069463A /* Preview Content */,
 			);
 			path = data_binding;
@@ -128,6 +140,8 @@
 			files = (
 				43A10C622551410F0069463A /* Preview Assets.xcassets in Resources */,
 				43A10C5F2551410F0069463A /* Assets.xcassets in Resources */,
+				43A10C772551636B0069463A /* 主題曲.mp3 in Resources */,
+				43A10C73255145550069463A /* BGM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A10C6B2551414D0069463A /* SecondView.swift in Sources */,
 				43A10C5D2551410E0069463A /* ContentView.swift in Sources */,
 				43A10C5B2551410E0069463A /* data_bindingApp.swift in Sources */,
+				43A10C6E255141850069463A /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
